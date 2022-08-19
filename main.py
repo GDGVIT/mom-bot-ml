@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from src.summary import summarize
 
 app = FastAPI()
 
@@ -8,4 +9,4 @@ async def root():
 
 @app.post("/summary")
 async def summary(transcript: str):
-    return {"summary": ["Good meeting", "Goodbye"]}
+    return {"summary": summarize(transcript)}
