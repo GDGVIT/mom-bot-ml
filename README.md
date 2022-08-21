@@ -16,6 +16,10 @@
 
 <br>
 
+## Notebook & Dataset
+- Notebook: https://www.kaggle.com/code/iamyajat/meeting-transcript-summarization
+- Dataset: `Coming soon...`
+
 ## Dependencies
  - Python 3.8
  - Pytorch
@@ -42,6 +46,10 @@
 4. Install all requirements
    ```sh
    pip install -r requirements.txt
+   ```
+5. Place the model files in the following path:
+   ```sh
+   ./assets/t5-epoch-x-train-loss-xxx-val-loss-xxx
    ```
 5. Start the API
    ```sh
@@ -73,5 +81,5 @@
 </table>
 
 <p align="center">
-	Made with ❤ by <a href="https://dscvit.com">DSC VIT</a>
+	Made with ❤ by <a href="https://dscvit.com">GDSC VIT</a>
 </p>
