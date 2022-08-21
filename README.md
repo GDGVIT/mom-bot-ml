@@ -2,60 +2,70 @@
 <a href="https://dscvit.com">
 	<img width="400" src="https://user-images.githubusercontent.com/56252312/159312411-58410727-3933-4224-b43e-4e9b627838a3.png#gh-light-mode-only" alt="GDSC VIT"/>
 </a>
-	<h2 align="center"> < Insert Project Title Here > </h2>
-	<h4 align="center"> < Insert Project Description Here > <h4>
+	<h2 align="center"> MOM BOT (NLP/ML) </h2>
+	<h4 align="center"> Converts a meeting transcript to its minutes of meeting <h4>
 </p>
 
 ---
 [![Join Us](https://img.shields.io/badge/Join%20Us-Developer%20Student%20Clubs-red)](https://dsc.community.dev/vellore-institute-of-technology/)
 [![Discord Chat](https://img.shields.io/discord/760928671698649098.svg)](https://discord.gg/498KVdSKWR)
 
-[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
-  [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE)
-
-
 ## Features
-- [ ]  < feature >
-- [ ]  < feature >
-- [ ]  < feature >
-- [ ]  < feature >
+- [x]  Summarizes a meeting into its minutes of meeting
+- [x]  A FastAPI endpoint to get the MOM
 
 <br>
 
 ## Dependencies
- - < dependency >
- - < dependency >
+ - Python 3.8
+ - Pytorch
+ - FastAPI
 
 
 ## Running
 
-
-< directions to install > 
-```bash
-< insert code >
-```
-
-< directions to execute >
-
-```bash
-< insert code >
-```
-
+1. Clone the repo
+   ```sh
+   git clone https://github.com/GDGVIT/mom-bot-ml.git
+   ```
+2. Install `virtualenv`
+   ```sh
+   pip install virtualenv
+   ```
+3. Create a virtual environment
+   ```sh
+   python -m venv env
+   ```
+   ```sh
+   .\env\Scripts\activate
+   ```
+4. Install all requirements
+   ```sh
+   pip install -r requirements.txt
+   ```
+5. Start the API
+   ```sh
+   uvicorn main:app --reload
+   ```
+   
 ## Contributors
 
 <table>
 	<tr align="center">
 		<td>
-		John Doe
+		Yajat Malhotra
 		<p align="center">
-			<img src = "https://dscvit.com/images/dsc-logo-square.svg" width="150" height="150" alt="Your Name Here (Insert Your Image Link In Src">
+			<img src = "https://avatars.githubusercontent.com/u/68477362?s=460&u=3512e6223472e97a050f292478d125602c371fec&v=4" width="150" height="150" alt="Yajat Malhotra">
 		</p>
 			<p align="center">
-				<a href = "https://github.com/person1">
+				<a href = "https://github.com/iamyajat">
 					<img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36" alt="GitHub"/>
 				</a>
-				<a href = "https://www.linkedin.com/in/person1">
+				<a href = "https://www.linkedin.com/in/iamyajat">
 					<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36" alt="LinkedIn"/>
+				</a>
+				<a href = "https://www.twitter.com/iamyajat">
+					<img src = "https://www.iconninja.com/files/51/256/860/twitter-media-social-network-circle-icon.svg" width="36" height="36" alt="Twitter"/>
 				</a>
 			</p>
 		</td>
