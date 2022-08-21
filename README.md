@@ -16,9 +16,9 @@
 
 <br>
 
-## Notebook & Dataset
+## Notebook & Model
 - Notebook: https://www.kaggle.com/code/iamyajat/meeting-transcript-summarization
-- Dataset: `Coming soon...`
+- Model: https://www.kaggle.com/code/iamyajat/meeting-transcript-summarization/data
 
 ## Dependencies
  - Python 3.8
